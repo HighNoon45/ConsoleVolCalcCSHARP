@@ -1,0 +1,15 @@
+C:\Users\dusti\source\repos\VolRechner\bin\Debug\net7.0\VolRechner.exe
+C:\Users\dusti\source\repos\VolRechner\bin\Debug\net7.0\VolRechner.deps.json
+C:\Users\dusti\source\repos\VolRechner\bin\Debug\net7.0\VolRechner.runtimeconfig.json
+C:\Users\dusti\source\repos\VolRechner\bin\Debug\net7.0\VolRechner.dll
+C:\Users\dusti\source\repos\VolRechner\bin\Debug\net7.0\VolRechner.pdb
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\VolRechner.csproj.AssemblyReference.cache
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\VolRechner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\VolRechner.AssemblyInfoInputs.cache
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\VolRechner.AssemblyInfo.cs
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\VolRechner.csproj.CoreCompileInputs.cache
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\VolRechner.dll
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\refint\VolRechner.dll
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\VolRechner.pdb
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\VolRechner.genruntimeconfig.cache
+C:\Users\dusti\source\repos\VolRechner\obj\Debug\net7.0\ref\VolRechner.dll
