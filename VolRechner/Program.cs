@@ -16,6 +16,7 @@ namespace VolRechner
 {
     public class Program
     {
+        // Das Programm ist als Übungsprogramm gedacht und absichtlich für den Lerneffekt verüberkompliziert. Es wurde versucht im Code Redundanzen zu vermeiden und gegen mögliche Fehleingaben abzusichern.
         static void Main(string[] args)
         {
             do
@@ -31,6 +32,7 @@ namespace VolRechner
                 MyCalculations calc = new MyCalculations();
                 GeoForms filter = new GeoForms();
                 string entry = filter.universalizeEntry();
+                //Delegat Directory für dynamischen Methoden call
                 IDictionary<string, Delegate> methodDict = new Dictionary<string, Delegate>()
                 {
                     { "1:RechteckU",  new Func<double,double>(calc.RechteckU) },
@@ -58,7 +60,7 @@ namespace VolRechner
                 filter.dictUtility(methodDict);
                 if (filter.entryException == false || entry == "")
                 {
-                    Console.WriteLine(" U forgor \n  _____\r\n /     \\\r\n| () () |\r\n \\  ^  /\r\n  |||||\r\n  |||||");
+                    Console.WriteLine(" False input");
                     goto Restart;
                 }
                 filter.MethodReflections();
@@ -74,14 +76,14 @@ namespace VolRechner
                     }
                     catch
                     {
-                        Console.WriteLine(" U forgor \n  _____\r\n /     \\\r\n| () () |\r\n \\  ^  /\r\n  |||||\r\n  |||||");
+                        Console.WriteLine(" False input");
                         goto Restart;
                     }
                 }
                 filter.outputLineNumber();
                 filter.Ausgabe(methodDict);
             Restart:
-                Console.WriteLine("\n Want it to end? Press E");
+                Console.WriteLine("\n Want to stop? Press E");
             }
             while (Console.ReadKey().Key != ConsoleKey.E);
         }

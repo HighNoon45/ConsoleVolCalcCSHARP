@@ -21,6 +21,7 @@ namespace VolRechner
         int[] lengthCount = new int[3] { 0, 0, 0 };
         public int paramCount = 0;
         public ParameterInfo[] paramInfo;
+        //Methode um Methodenwahl Eingaben erkannbar zu machen (Etwas ausführlicheres ToUpper für String Eingaben rechTecku = RechteckU)
         public string universalizeEntry()
         {
             entry = entry.ToUpper();
@@ -34,6 +35,7 @@ namespace VolRechner
             entry = methodEntry;
             return methodEntry;
         }
+        //Eingabe auswerten und eindeutigen Methodennamen zurück geben
         public void dictUtility(IDictionary<string, Delegate> _methodDict)
         {
             int taube = entry.Length;
@@ -55,6 +57,7 @@ namespace VolRechner
                 }
             }
         }
+        //Reflektion um Parameterzahl und Bezeichnung aus Methoden auszulesen
         public void MethodReflections()
         {
             Type type = typeof(MyCalculations);

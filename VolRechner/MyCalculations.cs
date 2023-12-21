@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace VolRechner
 {
+    //Methodensammlung bzw Formelsammlung für Berechnungen und Parameterbezeichnungen ()
     public class MyCalculations
     {
         public double RechteckU(double seite_a)
